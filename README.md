@@ -1,16 +1,24 @@
-# Context-Agent & NTM Benchmark
+# Context-Agent: Dynamic Discourse Trees for Non-Linear Dialogue
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 
 This project introduces the **Context-Agent** and the **Non-linear Task Multiturn Dialogue (NTM) benchmark**.
 
+## News
+
+- 🎉 Apr, 2026: Happy birthday! Context-Agent was accepted to ACL 2026 Findings.
+- 🔥 Dec, 2025: We released Context-Agent.
+
+
 ## Table of Contents
 
+- [News](#news)
 - [Requirements](#requirements)
 - [Ollama Setup (for local models)](#ollama-setup-for-local-models)
 - [Dataset Format](#dataset-format-inputjsonl)
 - [Quickstart](#quickstart)
 - [Output Layout](#output-layout)
 - [Evaluation](#evaluation)
+- [Citation](#citation)
 
 ## Requirements
 
@@ -63,6 +71,8 @@ The main entry point for the project is `main.py`. It processes JSONL datasets a
 ```bash
 python main.py
 ```
+
+🚀 A quick start for most users is to run the command above, then inspect the generated JSON files in `output/`.
 
 **Common flags:**
 
@@ -117,6 +127,18 @@ python evaluate.py --mode output/smart/gpt-4.1 --judge openai
 
 - CSV with per-conversation rows: `evaluation_result/<label>_<suffix>_scores.csv`
 - Summary JSON without per-conversation details: `evaluation_result/<label>_<suffix>_score.json`
+
+## Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```bibtex
+@article{contextagent2026,
+  title={Context-Agent & NTM Benchmark},
+  journal={ACL 2026 Findings},
+  year={2026}
+}
+```
 
 
 
