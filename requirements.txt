@@ -1,0 +1,6 @@
+ollama
+python-dotenv
+scikit-learn
+tqdm
+openai
+requests
