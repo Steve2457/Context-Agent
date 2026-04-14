@@ -133,9 +133,10 @@ python evaluate.py --mode output/smart/gpt-4.1 --judge openai
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@article{contextagent2026,
-  title={Context-Agent & NTM Benchmark},
-  journal={ACL 2026 Findings},
+@article{hu2026context,
+  title={Context-Agent: Dynamic Discourse Trees for Non-Linear Dialogue},
+  author={Hu, Junan and Guo, Shudan and Liu, Wenqi and Yin, Jianhua and Wei, Yinwei},
+  journal={arXiv preprint arXiv:2604.05552},
   year={2026}
 }
 ```
